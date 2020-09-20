@@ -1,9 +1,7 @@
 # 8-puzzle
-# We use the heapq package to construct the priority queue 
-# and we implement the A* algorithm to solve the 8-puzzle problem.
-# Given an intial state in a 1-dimension list, we will return the optimal path
-# to the goal state [1,2,3,4,5,6,7,8,0].
-# For example, solve([4,3,8,5,1,6,7,2,0]) prints:
+We use the heapq package to construct the priority queue and we implement the A* algorithm to solve the 8-puzzle problem.
+Given an intial state in a 1-dimension list, we will return the optimal path to the goal state [1,2,3,4,5,6,7,8,0].
+For example, solve([4,3,8,5,1,6,7,2,0]) prints:
 [4, 3, 8, 5, 1, 6, 7, 2, 0] h=10 moves: 0
 [4, 3, 8, 5, 1, 0, 7, 2, 6] h=11 moves: 1
 [4, 3, 0, 5, 1, 8, 7, 2, 6] h=10 moves: 2
