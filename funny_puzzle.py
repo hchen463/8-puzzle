@@ -1,5 +1,6 @@
-# We use the heapq package to construct the priority queue 
-# and we implement the A* algorithm to solve the 8-puzzle problem.
+# The source code of data structure for priority queue is available at
+# https://github.com/python/cpython/blob/3.8/Lib/heapq.py
+# We use the priority queue and implement the A* algorithm to solve the 8-puzzle problem.
 """
 Created on Thu Sep 17 21:33:45 2020
 
